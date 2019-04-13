@@ -1,0 +1,13 @@
+<h1>Current Heroes!</h1>
+
+#if ($heroes)
+ <ul>
+   #foreach ($hero in $heroes)
+     <li><a href="/heroes/$hero.getId()">$hero.all()</a></li>
+   #end
+ </ul>
+#else
+ <p>No Heroes!</p>
+#end
+
+<a href="/form">Add New Hero

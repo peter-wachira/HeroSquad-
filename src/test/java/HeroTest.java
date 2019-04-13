@@ -26,5 +26,11 @@ public class HeroTest {
         String expected = "madem";
         assertEquals(expected, myHero.getWeakness());
     }
+    @Test
+    public void getPower_forHeroesName_String() {
+        Hero myHero = new Hero("Vick",65,"madem","madem");
+        String expected = "madem";
+        assertEquals(expected, myHero.getPower());
+    }
 
 }

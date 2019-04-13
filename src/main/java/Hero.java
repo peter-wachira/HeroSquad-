@@ -5,8 +5,9 @@ public class Hero {
     private int mAge;
     private String mPower;
     private String mWeakness;
+    private int mId;
 
-
+    private static List<Hero> heroes =new ArrayList<>();
 
     public Hero(String name,int age,String power,String weakness ) {
         mName = name;
@@ -27,5 +28,20 @@ public class Hero {
 
     public String getWeakness() {
         return mWeakness;
+    }
+    public int getId() {
+        return mId;
+    }
+
+    public static List<Hero> all() {
+        return heroes;
+    }
+
+    public static void clear() {
+        heroes.clear();
+    }
+
+    public static Hero find(int id) {
+        return heroes.get(id - 1);
     }
 }

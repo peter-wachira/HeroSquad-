@@ -18,10 +18,12 @@
       <change afterPath="$PROJECT_DIR$/../HashMaps/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HashMaps/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HashMaps/src/main/java/HashMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Squad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HeroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SquadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/heroForm.vtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/heroes.vtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java Android/.idea/Java Android.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java Android/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java Android/.idea/vcs.xml" afterDir="false" />
@@ -41,11 +43,11 @@
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javatests" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jumia-clone" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../moringaschool/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
@@ -159,27 +161,31 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="1" />
+          <entry key="html" value="1" />
           <entry key="java" value="5" />
-          <entry key="vtl" value="1" />
+          <entry key="vtl" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
+          <entry key="HTML" value="1" />
           <entry key="JAVA" value="5" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="10" />
-          <entry key="java" value="271" />
+          <entry key="java" value="981" />
+          <entry key="vtl" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="10" />
-          <entry key="JAVA" value="271" />
+          <entry key="JAVA" value="981" />
+          <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
     </session>
@@ -189,10 +195,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="103">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#404#420#0" expanded="true" />
+                <element signature="e#669#685#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,29 +209,36 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Hero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Squad.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HeroTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="409">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/heroForm.vtl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -261,6 +276,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -672,18 +689,21 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/HeroTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/heroForm.vtl.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/heroForm.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hero.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
     <option name="width" value="683" />
-    <option name="height" value="743" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -731,6 +751,14 @@
               <item name="HeroSquad" type="b2602c69:ProjectViewProjectNode" />
               <item name="HeroSquad" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeroSquad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeroSquad" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -748,7 +776,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555156837608" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555160978981" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -771,7 +800,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HeroTest.Task_instantiatesWithDescription_String">
+  <component name="RunManager" selected="JUnit.HeroTest.getPower_forHeroesName_String">
     <configuration name="HeroTest.Task_instantiatesCorrectly_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeroSquad_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -792,12 +821,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HeroTest.getPower_forHeroesName_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HeroSquad_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HeroTest" />
+      <option name="METHOD_NAME" value="getPower_forHeroesName_String" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.HeroTest.Task_instantiatesCorrectly_true" />
       <item itemvalue="JUnit.HeroTest.Task_instantiatesWithDescription_String" />
+      <item itemvalue="JUnit.HeroTest.getPower_forHeroesName_String" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeroTest.getPower_forHeroesName_String" />
         <item itemvalue="JUnit.HeroTest.Task_instantiatesWithDescription_String" />
         <item itemvalue="JUnit.HeroTest.Task_instantiatesCorrectly_true" />
       </list>
@@ -820,12 +861,15 @@
     <history-entry file="HeroTest_Task_instantiatesCorrectly_true - 2019.04.12 at 17h 58m 06s.xml">
       <configuration name="HeroTest.Task_instantiatesCorrectly_true" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HeroTest_getPower_forHeroesName_String - 2019.04.13 at 15h 30m 10s.xml">
+      <configuration name="HeroTest.getPower_forHeroesName_String" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="683" height="743" extended-state="4" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0455259" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17878787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -840,7 +884,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.045677" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2055465" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3284553" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32952693" />
@@ -894,30 +938,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/HeroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="231">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HeroTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/heroes.vtl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/heroForm.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#404#420#0" expanded="true" />
+            <element signature="e#669#685#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="409">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

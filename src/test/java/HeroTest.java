@@ -14,5 +14,12 @@ public class HeroTest {
         String expected = "Vick";
         assertEquals(expected, myHero.getName());
     }
+    @Test
+    public void getAge_forHeroesName_String() {
+        Hero myHero = new Hero("Vick",65,"madem","madem");
+        int expected = 65;
+        assertEquals(expected, myHero.getAge());
+    }
+
 
 }

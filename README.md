@@ -25,7 +25,7 @@ The applications allow users to do the following:
 2.Add a new hero in the squad
 3.Add a squad name , size and a cause
 4.View a list of current squads
-3.
+3.View a list of heros in a squad
 4.SDK
 ```
 
@@ -36,4 +36,4 @@ You can contact me at pwachira900@gmail.com
 
 ## License
 
-- This project is licensed under the MIT Open Source license Copyright (c) 2019. [Peter Wachira](https://github.com/peter-wachira)
+- This project is licensed under the MIT Open Source license Copyright (c) 2019. [Peter Wachira]

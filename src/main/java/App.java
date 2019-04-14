@@ -82,7 +82,7 @@ public class App {
             model.put("template", "templates/squad.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
-        // route to handle a form for adding new heroes to squadss.
+        // route to handle a form for adding new heroes to squads
         get("squads/:id/heroes/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             Squad squad = Squad.find(Integer.parseInt(request.params(":id")));
@@ -90,6 +90,8 @@ public class App {
             model.put("template", "templates/squadHeroesForm.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
+
+
 
 
 
@@ -119,5 +121,36 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
+
+        // modified the post("/heroes") route to "find" the Squad object that we are adding the newHero to then add the hero to that found Squad.
+        post("/heroes", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+
+            Squad squad = Squad.find(Integer.parseInt(request.queryParams("squadId")));
+
+            String name = request.queryParams("name");
+            int age = Integer.parseInt(request.queryParams("age"));
+            String power = request.queryParams("power");
+            String weakness = request.queryParams("weakness");
+            Hero newHero = new Hero(name, age, power, weakness);
+            // check if hero is already in the squad
+            if (Squad.heroAlreadyExists(newHero)) {
+                String heroExists = "Hero " + name + " is already in the squad";
+                model.put("heroExists", heroExists);
+            }
+            //check that squad members dont exceed 5 heroes
+            else if (squad.getHeroes().size() >= squad.getSize()) {
+                String sizeMet = "Squad is full";
+                model.put("sizeMet", sizeMet);
+            }
+            // add the  hero if all conditions are met
+            else{
+                squad.addHero(newHero);
+            }
+
+            model.put("squad", squad);
+            model.put("template", "templates/squadHeroesSuccess.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
     }
 }

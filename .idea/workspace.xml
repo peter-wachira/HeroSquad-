@@ -18,10 +18,6 @@
       <change afterPath="$PROJECT_DIR$/../HashMaps/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HashMaps/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HashMaps/src/main/java/HashMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squad.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squadForm.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squadSuccess.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squads.vtl" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java Android/.idea/Java Android.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java Android/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Java Android/.idea/vcs.xml" afterDir="false" />
@@ -41,7 +37,6 @@
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javatests" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jumia-clone" beforeDir="false" />
@@ -180,7 +175,7 @@
           <entry key="html" value="1" />
           <entry key="java" value="8" />
           <entry key="md" value="1" />
-          <entry key="vtl" value="11" />
+          <entry key="vtl" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -188,13 +183,13 @@
           <entry key="Groovy" value="1" />
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="8" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="10" />
-          <entry key="java" value="2375" />
+          <entry key="java" value="2417" />
           <entry key="md" value="479" />
           <entry key="vtl" value="146" />
         </counts>
@@ -202,7 +197,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="10" />
-          <entry key="JAVA" value="2375" />
+          <entry key="JAVA" value="2417" />
           <entry key="PLAIN_TEXT" value="625" />
         </counts>
       </usages-collector>
@@ -213,8 +208,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+            <state relative-caret-position="325">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1099#1115#0" expanded="true" />
@@ -223,7 +218,17 @@
                 <element signature="e#2133#2149#0" expanded="true" />
                 <element signature="e#2690#2706#0" expanded="true" />
                 <element signature="e#3043#3059#0" expanded="true" />
+                <element signature="e#3518#3534#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/squadHeroesForm.vtl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -726,6 +731,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/squadSuccess.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/squad.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/squads.vtl" />
+        <option value="$PROJECT_DIR$/src/main/java/squadHeroesForm.vtl" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
       </list>
     </option>
@@ -800,7 +806,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555242749959" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555243249660" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -926,9 +932,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="84" width="699" height="677" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1669219" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45941806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1102,10 +1107,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/squadHeroesForm.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        <state relative-caret-position="325">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1099#1115#0" expanded="true" />
@@ -1114,6 +1126,7 @@
             <element signature="e#2133#2149#0" expanded="true" />
             <element signature="e#2690#2706#0" expanded="true" />
             <element signature="e#3043#3059#0" expanded="true" />
+            <element signature="e#3518#3534#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -189,7 +189,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="10" />
-          <entry key="java" value="1666" />
+          <entry key="java" value="1980" />
           <entry key="md" value="479" />
           <entry key="vtl" value="96" />
         </counts>
@@ -197,7 +197,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="10" />
-          <entry key="JAVA" value="1666" />
+          <entry key="JAVA" value="1980" />
           <entry key="PLAIN_TEXT" value="575" />
         </counts>
       </usages-collector>
@@ -298,8 +298,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SquadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="301">
+              <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -828,7 +828,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555235845799" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555238357021" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -851,17 +851,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SquadTest.squad_instantiatesCorrectly_true">
-    <configuration name="HeroTest.Task_instantiatesCorrectly_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HeroSquad_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HeroTest" />
-      <option name="METHOD_NAME" value="Task_instantiatesCorrectly_true" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SquadTest.find_returnsSquadWithSameId_secondSquad">
     <configuration name="HeroTest.Task_instantiatesWithDescription_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeroSquad_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -882,6 +872,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SquadTest.find_returnsSquadWithSameId_secondSquad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HeroSquad_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SquadTest" />
+      <option name="METHOD_NAME" value="find_returnsSquadWithSameId_secondSquad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquadTest.getName_squadInstantiatesWithName_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HeroSquad_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SquadTest" />
+      <option name="METHOD_NAME" value="getName_squadInstantiatesWithName_String" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SquadTest.squad_instantiatesCorrectly_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HeroSquad_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -893,17 +903,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HeroTest.Task_instantiatesCorrectly_true" />
       <item itemvalue="JUnit.HeroTest.Task_instantiatesWithDescription_String" />
       <item itemvalue="JUnit.HeroTest.getPower_forHeroesName_String" />
       <item itemvalue="JUnit.SquadTest.squad_instantiatesCorrectly_true" />
+      <item itemvalue="JUnit.SquadTest.getName_squadInstantiatesWithName_String" />
+      <item itemvalue="JUnit.SquadTest.find_returnsSquadWithSameId_secondSquad" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SquadTest.find_returnsSquadWithSameId_secondSquad" />
+        <item itemvalue="JUnit.SquadTest.getName_squadInstantiatesWithName_String" />
         <item itemvalue="JUnit.SquadTest.squad_instantiatesCorrectly_true" />
         <item itemvalue="JUnit.HeroTest.getPower_forHeroesName_String" />
         <item itemvalue="JUnit.HeroTest.Task_instantiatesWithDescription_String" />
-        <item itemvalue="JUnit.HeroTest.Task_instantiatesCorrectly_true" />
       </list>
     </recent_temporary>
   </component>
@@ -927,12 +939,24 @@
     <history-entry file="HeroTest_getPower_forHeroesName_String - 2019.04.13 at 15h 30m 10s.xml">
       <configuration name="HeroTest.getPower_forHeroesName_String" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SquadTest_squad_instantiatesCorrectly_true - 2019.04.14 at 12h 57m 38s.xml">
+      <configuration name="SquadTest.squad_instantiatesCorrectly_true" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquadTest_squad_instantiatesCorrectly_true - 2019.04.14 at 12h 57m 40s.xml">
+      <configuration name="SquadTest.squad_instantiatesCorrectly_true" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquadTest_getName_squadInstantiatesWithName_String - 2019.04.14 at 13h 11m 13s.xml">
+      <configuration name="SquadTest.getName_squadInstantiatesWithName_String" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquadTest_find_returnsSquadWithSameId_secondSquad - 2019.04.14 at 13h 35m 03s.xml">
+      <configuration name="SquadTest.find_returnsSquadWithSameId_secondSquad" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="682" height="743" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29402515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07389937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -941,14 +965,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33551556" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33551556" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33551556" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32789558" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -964,6 +988,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SquadTest.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -1082,8 +1118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SquadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="301">
+          <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

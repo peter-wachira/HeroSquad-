@@ -18,20 +18,6 @@ public class App {
 
 
 
-
-
-
-
-
-
-
-
-//        get("/form", (request, response) -> {
-//            Map<String, Object> model = new HashMap<String, Object>();
-//            model.put("template", "templates/heroForm.vtl");
-//            return new ModelAndView(model, layout);
-//        }, new VelocityTemplateEngine());
-
         // getting instances of Hero class
         get("/heroes", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
@@ -92,36 +78,6 @@ public class App {
         }, new VelocityTemplateEngine());
 
 
-
-
-
-
-
-
-
-
-        post("/heroes", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
-
-            ArrayList<Hero> heroes = request.session().attribute("heroes");
-            if (heroes == null) {
-                heroes = new ArrayList<Hero>();
-                request.session().attribute("heroes", heroes);
-            }
-
-            String name = request.queryParams("name");
-            String age = request.queryParams("age");
-            String power = request.queryParams("power");
-            String weakness = request.queryParams("weakness");
-            Hero newHero = new Hero(name,Integer.parseInt(age),power,weakness);
-            heroes.add(newHero);
-
-            model.put("template", "templates/heroes.vtl");
-            model.put("heroes", request.session().attribute("heroes"));
-            return new ModelAndView(model, layout);
-        }, new VelocityTemplateEngine());
-
-
         // modified the post("/heroes") route to "find" the Squad object that we are adding the newHero to then add the hero to that found Squad.
         post("/heroes", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
@@ -138,12 +94,12 @@ public class App {
                 String heroExists = "Hero " + name + " is already in the squad";
                 model.put("heroExists", heroExists);
             }
-            //check that squad members dont exceed 5 heroes
+            //check that squad members dont exceed users specified number of heroes
             else if (squad.getHeroes().size() >= squad.getSize()) {
                 String sizeMet = "Squad is full";
                 model.put("sizeMet", sizeMet);
             }
-            // add the  hero if all conditions are met
+            // add the hero
             else{
                 squad.addHero(newHero);
             }

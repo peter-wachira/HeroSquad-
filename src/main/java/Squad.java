@@ -5,8 +5,8 @@ public class Squad {
     private int mSize;
     private String mCause;
     private static List<Squad> instances = new ArrayList<Squad>();
-    private  int mId;
-    private List<Hero>mHeroes;
+    private int mId;
+    private List<Hero> mHeroes;
 
     public Squad(String name, int size, String cause) {
         mName = name;
@@ -16,6 +16,7 @@ public class Squad {
         mId = instances.size();
         mHeroes = new ArrayList<Hero>();
     }
+
     public String getName() {
         return mName;
     }
@@ -41,13 +42,26 @@ public class Squad {
     }
 
     public static Squad find(int id) {
-        return instances.get(id-1);
+        return instances.get(id - 1);
     }
+
     public List<Hero> getHeroes() {
         return mHeroes;
     }
 
     public void addHero(Hero hero) {
         mHeroes.add(hero);
+    }
+
+    public static boolean heroAlreadyExists(Hero newHero) {
+        boolean exists = false;
+        for (Squad squad : instances) {
+            for (Hero hero : squad.getHeroes()) {
+                if (hero.getName().equals(newHero.getName())) {
+                    exists = true;
+                }
+            }
+        }
+        return exists;
     }
 }

@@ -14,6 +14,8 @@ public class Hero {
         mAge = age;
         mPower = power;
         mWeakness = weakness;
+        heroes.add(this);
+        mId = heroes.size();
     }
 
     public String getName() {

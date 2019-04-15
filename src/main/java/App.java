@@ -26,7 +26,6 @@ public class App {
         }, new VelocityTemplateEngine());
 
 
-
         // getting instances of Hero class
         get("/heroes", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();

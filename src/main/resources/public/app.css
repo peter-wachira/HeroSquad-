@@ -26,8 +26,28 @@ header,
   .navbar:not(.top-nav-collapse) {
     background: #78909c !important;
   }
-}
 
+}
+@media (max-width: 575px) { .navbar:not(.top-nav-collapse) {
+                             background: #78909c !important;
+                             html,
+                               body,
+                               header,
+                               .view {
+                                 height: 100vh;
+                               }
+                          } }
+
+
+@media (max-width: 767px) { .navbar:not(.top-nav-collapse) {
+                             background: #78909c !important;
+                             html,
+                               body,
+                               header,
+                               .view {
+                                 height: 100vh;
+                               }
+                          } }
 h1 {
   letter-spacing: 8px;
 }

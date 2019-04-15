@@ -4,6 +4,9 @@ import spark.ModelAndView;
 import java.util.ArrayList;
 import java.util.List;
 import spark.template.velocity.VelocityTemplateEngine;
+
+import javax.sound.sampled.Port;
+
 import static spark.Spark.*;
 public class App {
     public static void main(String[] args) {
@@ -18,6 +21,8 @@ public class App {
         } else {
             port = 4567;
         }
+
+        port(port);
 
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();

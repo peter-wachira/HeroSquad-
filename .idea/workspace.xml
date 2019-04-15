@@ -37,13 +37,6 @@
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/IPS/Quotes-Angular/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heroForm.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/heroForm.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadForm.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squadForm.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesForm.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesForm.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesSuccess.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squadHeroesSuccess.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squadSuccess.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squadSuccess.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javatests" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jumia-clone" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../moringaschool/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
@@ -251,7 +244,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/squads.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="77">
               <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
@@ -779,9 +772,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="673" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
+    <option name="width" value="663" />
     <option name="height" value="555" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -864,7 +857,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555329520408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555331206518" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -1019,7 +1012,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50151515" side_tool="true" weight="0.26101142" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49848485" visible="true" weight="0.15986949" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49848485" visible="true" weight="0.69820553" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32789558" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1211,7 +1204,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/squads.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="77">
           <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>

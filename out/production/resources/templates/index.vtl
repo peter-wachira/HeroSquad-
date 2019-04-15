@@ -17,7 +17,7 @@
                     <a class="nav-link" href="/squads">Squads</a>
                   </li>
                   <li class="nav-item">
-                     <a href="https://github.com/peter-wachira/" class="nav-link border border-light rounded" target="_blank">
+                     <a href="https://github.com/peter-wachira/"  onclick="btnClick()" class="nav-link border border-light rounded" target="_blank">
                       <i class="fab fa-github mr-2"></i>GitHub
                      </a>
                    </li>
@@ -36,11 +36,11 @@
                 <div class="row">
                   <!--Grid column-->
                   <div class="col-md-12 mb-4 white-text text-center">
-                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 animated wobble"><strong>Hero Squad</strong></h1>
+                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 animated wobble"><strong>Hero Squad <i class="fas fa-mask animated rotateIn infinite"></i></strong></h1>
                     <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-                    <h5 class="text-uppercase mb-4 white-text animate fadeInDown"><strong>Create Your Hero Squads <i class="fas fa-bolt animated wobble infinite"></i></strong></h5>
-                    <a href="/squads/new" class="btn btn-outline-white">Add a new Squad  <i class="fas fa-mask animated rotateIn infinite"></i></i></a>
-                    <a href="/squads" class="btn btn-outline-white ">View Squad List  <i class="far fa-address-card animated rotateIn infinite"> </i></a>
+                    <h4 class="text-uppercase mb-4 white-text animate fadeInDown"><strong id="type"></strong> <i class="fas fa-bolt animated wobble infinite"></i></h4>
+                    <a  onclick="firstClick()"  class="btn btn-outline-white" href="/squads/new" >Add a new Squad <i class="fas fa-dragon animated wobble infinite"></i></a>
+                    <a class="btn btn-outline-white " onclick="btnClick()"  href="/squads">View Squad List <i class="fas fa-dragon animated wobble infinite"></i> </a>
 
                   </div>
                   <!--Grid column-->

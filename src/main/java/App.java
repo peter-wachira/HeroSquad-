@@ -39,7 +39,7 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
-        //getting heroe by their id
+        //getting heroe by their id // route to handle a form for adding new heroes to squads
         get("/heroes/:id", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             Hero hero = Hero.find(Integer.parseInt(request.params(":id")));

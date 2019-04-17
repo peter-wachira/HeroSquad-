@@ -31,7 +31,7 @@ public class App {
         }, new VelocityTemplateEngine());
 
 
-        // getting instances of Hero class
+        // getting all heroes  showing all hero details
         get("/heroes", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("heroes", Hero.all());
@@ -39,7 +39,7 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
-        //getting heroe by their id // route to handle a form for adding new heroes to squads
+        //getting heroes by their id which was returned by find method //
         get("/heroes/:id", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             Hero hero = Hero.find(Integer.parseInt(request.params(":id")));
@@ -55,7 +55,10 @@ public class App {
             model.put("template", "templates/squadForm.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
-        // gather input from squad form
+
+
+
+        // gather input from squad form after displaying success message
         post("/squads", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             String name = request.queryParams("name");
@@ -65,7 +68,7 @@ public class App {
             model.put("template", "templates/squadSuccess.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
-        //route to handle squads
+        //route to handle squads showing all squads in the squads list
         get("/squads", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("squads", Squad.all());
@@ -73,7 +76,7 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
-        //route to handle displaying individual category page
+        //route to handle displaying found squad returned by the find method in class Hero
         get("/squads/:id",(request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             Squad squad = Squad.find(Integer.parseInt(request.params(":id")));
@@ -81,7 +84,7 @@ public class App {
             model.put("template", "templates/squad.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
-        // route to handle a form for adding new heroes to squads
+        // route to handle a form for adding new heroes to squads specific squad using the squad id
         get("squads/:id/heroes/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             Squad squad = Squad.find(Integer.parseInt(request.params(":id")));

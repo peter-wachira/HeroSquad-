@@ -1,6 +1,9 @@
 # Hero Squad
 #### Hero Squad, April 14th 2019
 #### By **Peter Wachira**
+![](screenshots/screenshot1.png)
+
+
 
 ## Author's name
 Peter Wachira

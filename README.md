@@ -36,4 +36,4 @@ You can contact me at pwachira900@gmail.com
 
 ## License
 
-- This project is licensed under the MIT Open Source license Copyright (c) 2019. [Peter Wachira]
+- This project is licensed under the MIT Open Source license Copyright (c) 2019. [Peter Wachira](https://github.com/peter-wachira/HeroSquad-/blob/master/LICENCE)

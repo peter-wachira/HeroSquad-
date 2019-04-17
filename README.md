@@ -29,7 +29,7 @@ The applications allow users to do the following:
 3.Add a squad name , size and a cause
 4.View a list of current squads
 3.View a list of heros in a squad
-4.SDK
+
 ```
 
 ## Contact Details
